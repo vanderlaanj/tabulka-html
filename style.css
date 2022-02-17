@@ -1,0 +1,48 @@
+h1{
+    background-color: black;
+    color: white;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgb(192, 192, 192);
+    border-collapse: collapse;
+    
+}
+td, th{
+    padding: 10px;
+}
+.flag{
+height: 20px;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+.gold{
+    background-color: gold;
+}
+.silver{
+    background-color: silver;
+}
+.bronze{
+    background-color: #cd7f32;
+} 
+caption{
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo{
+    height: 30px;
+
+}
