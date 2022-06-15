@@ -1,143 +1,70 @@
-  *
-        {
-            background-color: #333;
-            color: black;
-           
-        }
-        body{
-            background-color: #333;
-        }
- h1 {
-            background-color: white;
-            color: rgb(0, 0, 0);
-            /* border-bottom: 1px solid black; */
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            padding: 20px;
-        }
-        h2
-        {
-            background-color:rgb(12, 12, 12);
-            color: white;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 10px;
-        }
-        h3
-        {
-            background-color: rgb(100, 100, 100);
-            color: rgb(255, 255, 255);
-            text-align: left;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 5px;
-        }
-      
-       
-
-       img
-       {
-       background-color: transparent;
-       }
-        
-        main {
-            
-            border-width: 5px;
-            border-style: solid; 
-            padding: 50px;
-            background-color: white ;
-            margin-top: 35px;
-            margin-bottom: 35px;
-            margin-left: 250px;
-            margin-right: 250px;
-        }
-        main p{
-            background-color: white;
-        }
-        a{
-            background-color: white;
-        }
-        strong {
-            background-color: transparent;
-        }
-      
-      .nemoje{
-          background-color: transparent;
-      }
-    
-      table, th, td {
-        border: 2px solid black ;
-        border-collapse: collapse;
-        background-color:white;
-        position: relative;
-        margin: 10px;
-        
-    }
-    td, th{
-        padding: 10px;
-        text-align: center;
-    }
-    th{
-        font-weight:bold ;
-        border: outset;
-        border-width: 5px;
-    }
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-    border-bottom: solid black;
+h1{
     background-color: black;
-  }
-  
-
-  .topnav a {
-    float: left;
-    color:grey;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
- 
-  .topnav a:hover {
+}
+h2{
+    text-align: center;
+    color: white;
     background-color: black;
-    color: white;
-  }
- 
-  
-  .topnav a.active {
-    background-color:black;
-    color: white;
-  }
-  div{
-    background-color: transparent;
-  }
-  .center {
-    margin-left: auto;
-    margin-right: auto;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+table{
     width: 100%;
-  }
-  ul li{
-    background-color: white;
+}
+caption{
+    background-color: black;
+    color: white;
+}
+table, th, td {
+    border: 1px solid rgb(192, 192, 192);
+    border-collapse: collapse;
     
-  }
-  ul{
-    background-color: white;
-  }
-  h4{
-    color: white;
-    background-color: #333;
-  }
-label{
-    margin: 10px;
 }
-.btn{
-    margin: 10px;
+td, th{
+    padding: 10px;
 }
-footer{
+.flag{
+height: 20px;
+}
+.center{
     text-align: center;
-    color: white;
 }
-form{
-  background-color: transparent;
+.right{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+.gold{
+    background-color: gold;
+}
+.silver{
+    background-color: silver;
+}
+.bronze{
+    background-color: #cd7f32;
+} 
+caption{
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo{
+    height: 30px;
+
+}
+body{
+    background-color: rgb(31, 31, 31);
+}
+#info{
+    background-color: white;
+}
+.logo2{
+    height: 50px;
+}
+tfoot, thead{
+    background-color: azure;
 }
